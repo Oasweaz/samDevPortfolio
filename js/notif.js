@@ -1,5 +1,5 @@
 const notifi = document.querySelector(".notif");
-const btns = document.querySelectorAll(".con-b .demo-btn");
+const btns = document.querySelectorAll(".con-b .toasty");
 
 const toastDetails = {
     timer: 5000,

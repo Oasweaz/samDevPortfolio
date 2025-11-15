@@ -11,7 +11,7 @@ var typed = new Typed(".mlt-txt",
 
 var typed = new Typed(".stack-txt", 
 {
-    strings: ["HTML5", "JS", "CSS", "JAVA", "SPRING-BOOT", "REACT NATIVE", "VUE-VITE"],
+    strings: ["HTML5", "CSS", "TAILWIND", "JS", "PHP", "JAVA-SPRING-BOOT", "REACT NATIVE", "VUE-VITE"],
     typeSpeed: 100,
     backSpeed: 100,
     backDelay: 1000,
