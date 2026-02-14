@@ -228,13 +228,17 @@ body{
 
 .divider{
     display: flex;
-    width: 100%;
+    width: 80%;
     height: 80px;
+    align-items: cemter;
+    justify-content: center;
     border-bottom: 0.2rem solid #545e68;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-style: normal;
     padding-left: 30px;
     padding-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 50px;
     font-size: 23px;
     color: #535b63
@@ -625,6 +629,17 @@ body{
     border-radius: 50%;
 }
 
+.pt{
+    width: 18px;
+    height: 18px;
+    margin-top: -2px;
+    margin-left: 5px;
+}
+
+.ml{
+    margin-left: -5px;
+}
+
 .prev{
     padding: 9px;
     border: solid 1px red;
@@ -732,6 +747,10 @@ body{
 
 #widescope-bg{
     background-image: url(../assets/img/widescopeint.PNG); 
+}
+
+#blrr-bg{
+    background-image: url(../assets/img/blrr.jpg); 
 }
 
 a{
