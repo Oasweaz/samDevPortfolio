@@ -12,6 +12,10 @@ body{
     height: 250vh;
 }
 
+.hide{
+    display: none !important;
+}
+
 .header{
     position:fixed;
     top: 0;
@@ -733,6 +737,11 @@ body{
     transition: .3s ease-in-out;
 }
 
+.ready-btn:hover{
+    background: #474444;
+    color: #fff;
+}
+
 #ingryd-bg{
     background-image: url(../assets/img/ingryd_snap.PNG); 
 }
@@ -751,6 +760,10 @@ body{
 
 #blrr-bg{
     background-image: url(../assets/img/blrr.jpg); 
+}
+
+#gtp-bg{
+    background-image: url(../assets/img/gtp.PNG); 
 }
 
 a{
